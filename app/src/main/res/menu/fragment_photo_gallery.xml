@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item android:id="@+id/menu_item_search"
+          android:title="@string/abc_searchview_description_clear"
+          app:actionViewClass="android.support.v7.widget.SearchView"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_item_clear"
+          android:title="@string/abc_searchview_description_clear"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menu_item_progress_bar"
+        android:visible="false"
+          app:showAsAction="always"
+          app:actionLayout="@layout/action_view_progress"/>
+    <item android:id="@+id/menu_item_toggle_poll"
+          android:title="@string/start_polling"
+          app:showAsAction="ifRoom"/>
+
+
+
+</menu>
